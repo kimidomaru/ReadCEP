@@ -41,7 +41,7 @@ public class MainTrab {
 			System.out.println("Cep nao encontrado");
 		else {
 			System.out.println("Cep encontrado!");
-			while(f.getFilePointer() < f.length()) // para Detectar EOF
+			while(f.getFilePointer()-1 < f.length()) // para Detectar EOF
 			{
 				f.seek(f.getFilePointer()-1*300L);
 				System.out.println("Posicao do endereco: "+f.getFilePointer()/300);
