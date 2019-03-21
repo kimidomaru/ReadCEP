@@ -1,2 +1,2 @@
 # ReadCEP
-An Java Code to read Adress Codes in a file
+An Java Code to read Address Codes in a file
